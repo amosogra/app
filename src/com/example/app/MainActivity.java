@@ -1,6 +1,7 @@
 package com.example.app;
 
 import redis.clients.jedis.Jedis;
+
 //import org.apache.commons.pool.impl.GenericObjectPool;
 //import org.apache.commons.pool.impl.GenericObjectPool.Config;
 
@@ -17,8 +18,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        Jedis jedis = new Jedis("localhost");
-        jedis.disconnect();
+        //Jedis jedis = new Jedis("localhost");
+        //jedis.disconnect();
     }
     ////dasfdf
     //adfasdfasf
